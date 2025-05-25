@@ -3,41 +3,31 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Pinterest Clone",
+    title: "Eatoos -Swiggy Clone",
     description:
-      "A Clone of a existing web application, Pinterest, using React, NodeJS, MongoDB, TailwindCSS",
-    image: "/projects/pinterest.png",
+      "Developed an online food ordering platform that allows users to browse menus, place orders, and receive food delivery to their doorstep.",
+    image: "https://ag.purdue.edu/news/2024/10/_media/sept-cfi-banner72.jpg",
     tags: [
       "React",
-      "NodeJS",
-      "ExpressJS",
-      "RESTful API",
-      "MongoDB",
+      "Jest",
+      "Parcel bundler",
+      "Swiggy API",
       "TailwindCSS",
     ],
-    demoUrl: "https://pinterest-clone-x07h.onrender.com/",
-    githubUrl: "https://github.com/tharunkumar-BIT/Pinterest_clone",
+    demoUrl: "",
+    githubUrl: "https://github.com/ISWARYA-hash8/Eatoos-From-cravings-to-comfort-Swiggy-clone-",
   },
   {
     id: 2,
-    title: "Smart Parking System",
+    title: "Chit-Chat",
     description:
-      "A real-time Full stack project for large scale vehicle parking system",
-    image: "/projects/smart-parking-system.png",
-    tags: ["React", "NodeJS", "ExpressJS", "MySQL"],
+      "Built a real-time chat application using the MERN stack (MongoDB, Express.js, React.js, Node.js) enabling users to register, log in, and chat instantly.",
+    image: "https://i.ytimg.com/vi/IP3CKkoVMlY/hqdefault.jpg",
+    tags: ["React", "NodeJS", "ExpressJS", "Mongodb","Socket.io"],
     demoUrl: "#",
-    githubUrl: "https://github.com/tharunkumar-BIT/Smart_parking_system",
+    githubUrl: "https://github.com/ISWARYA-hash8/ChatApp",
   },
-  {
-    id: 3,
-    title: "Home Automation",
-    description:
-      "A hardware project for automating the Home appliances using Google Assistant",
-    image: "/projects/homeAutomation.jpg",
-    tags: ["Arduino UNO", "Nodemcu ESP8266", "Google Assistant"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/tharunkumar-BIT/Home-automation",
-  },
+  
 ];
 
 export const ProjectsSection = () => {
@@ -48,8 +38,7 @@ export const ProjectsSection = () => {
           Featured <span className="text-primary"> Projects</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my Projects. Each project was carefully crafted with
-          attention to details, performance and user experience.
+         Take a walkthrough of my featured projects below
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, key) => (
@@ -110,7 +99,7 @@ export const ProjectsSection = () => {
         </div>
         <div className="text-center mt-12">
           <a
-            href="https://github.com/tharunkumar-BIT"
+            href="https://github.com/ISWARYA-hash8"
             target="_blank"
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
           >

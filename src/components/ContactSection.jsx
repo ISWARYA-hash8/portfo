@@ -65,7 +65,7 @@ export const ContactSection = () => {
                     href="tel:+918248629278"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    
+                    +91 8667326886
                   </a>
                 </div>
               </div>
@@ -86,7 +86,7 @@ export const ContactSection = () => {
               <h4 className="font-medium mb-4">Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a
-                  href="https://www.linkedin.com/in/"
+                  href="https://www.linkedin.com/in/iswarya-p-7b29b3242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                 >
                   <Linkedin />
